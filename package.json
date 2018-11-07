@@ -1,0 +1,26 @@
+{
+  "name": "juicefeed",
+  "version": "1.0.0",
+  "repository": "https://github.com/marsmith/juicefeed",
+  "authors": [
+    "Martyn Smith <marsmith@usgs.gov>"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run open && npm run server",
+    "server": "node server.js",
+    "open": "start http://localhost:8082"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "bluebird": "3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mysql": "2.16.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "scrape-twitter": "^0.11.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {}
+}
